@@ -7,7 +7,7 @@ const {CookieAccessInfo, CookieJar, Cookie} = cookiejar
 
 let config = {
     httpprefix: 'https', port: 443,
-    serverName: 'fullaccesstointernet.vercel.app',
+    serverName: 'fullaccesstointernet.netlify.app',
 }
 let blockedSites = [] // accessing to chase.com was reported by google
 
