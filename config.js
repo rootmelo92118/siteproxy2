@@ -9,7 +9,7 @@ let config = {
     httpprefix: 'https', port: 443,
     serverName: 'siteproxy.netptop.workers.dev',
 }
-let blockedSites = ['www.chase.com'] // accessing to chase.com was reported by google
+let blockedSites = [] // accessing to chase.com was reported by google
 
 if (process.env.herokuAddr) {
     config.serverName = process.env.herokuAddr
